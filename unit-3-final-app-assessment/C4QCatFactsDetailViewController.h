@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+animatedGIF.h"
 
 @interface C4QCatFactsDetailViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *catImageView;
+@property (weak, nonatomic) IBOutlet UILabel *catFactLabel;
+@property (nonatomic) NSString *factToShow;
+
+
 
 @end

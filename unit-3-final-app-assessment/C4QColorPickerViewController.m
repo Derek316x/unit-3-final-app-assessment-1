@@ -26,4 +26,8 @@
     self.redButton.backgroundColor = [UIColor redColor];
 }
 
+- (IBAction)colorButtonTapped:(UIButton *)sender {
+    [self.delegate colorPickerViewController:self didPickColorButton:sender];
+}
+
 @end

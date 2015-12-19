@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6928B5C41C25D1F000AAB8DA /* C4QCatFactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928B5C31C25D1F000AAB8DA /* C4QCatFactTableViewCell.m */; };
+		6928B5C61C25E22400AAB8DA /* C4QCatFactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928B5C51C25E22400AAB8DA /* C4QCatFactTableViewCell.xib */; };
+		6928B5C81C25F1C900AAB8DA /* Checkmark-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6928B5C71C25F1C900AAB8DA /* Checkmark-25.png */; };
+		6928B5CA1C25F57000AAB8DA /* Checkmark-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 6928B5C91C25F57000AAB8DA /* Checkmark-32.png */; };
+		6928B5CE1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928B5CD1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.m */; };
+		6928B5D11C2606CB00AAB8DA /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928B5D01C2606CB00AAB8DA /* UIImage+animatedGIF.m */; };
+		6928B5D31C260C7C00AAB8DA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6928B5D21C260C7C00AAB8DA /* ImageIO.framework */; };
 		8D610EA01C2477EB00AADDC2 /* C4QCatFactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D610E951C2477EB00AADDC2 /* C4QCatFactsTableViewController.m */; };
 		8D610EA11C2477EB00AADDC2 /* C4QColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D610E971C2477EB00AADDC2 /* C4QColorPickerViewController.m */; };
 		8D610EA21C2477EB00AADDC2 /* C4QRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D610E991C2477EB00AADDC2 /* C4QRootViewController.m */; };
@@ -23,6 +30,18 @@
 /* Begin PBXFileReference section */
 		4292FCC8B28330B5275CBFBD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4298908874A5133FD8BE086A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6928B5C11C25C26100AAB8DA /* C4QColorPickerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4QColorPickerViewControllerDelegate.h; sourceTree = "<group>"; };
+		6928B5C21C25D1F000AAB8DA /* C4QCatFactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4QCatFactTableViewCell.h; sourceTree = "<group>"; };
+		6928B5C31C25D1F000AAB8DA /* C4QCatFactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4QCatFactTableViewCell.m; sourceTree = "<group>"; };
+		6928B5C51C25E22400AAB8DA /* C4QCatFactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4QCatFactTableViewCell.xib; sourceTree = "<group>"; };
+		6928B5C71C25F1C900AAB8DA /* Checkmark-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-25.png"; sourceTree = "<group>"; };
+		6928B5C91C25F57000AAB8DA /* Checkmark-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark-32.png"; sourceTree = "<group>"; };
+		6928B5CB1C25F70000AAB8DA /* C4QCatFactTableViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4QCatFactTableViewCellDelegate.h; sourceTree = "<group>"; };
+		6928B5CC1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4QSavedCatFactsTableViewController.h; sourceTree = "<group>"; };
+		6928B5CD1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4QSavedCatFactsTableViewController.m; sourceTree = "<group>"; };
+		6928B5CF1C2606CB00AAB8DA /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		6928B5D01C2606CB00AAB8DA /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		6928B5D21C260C7C00AAB8DA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		8D610E941C2477EB00AADDC2 /* C4QCatFactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4QCatFactsTableViewController.h; sourceTree = "<group>"; };
 		8D610E951C2477EB00AADDC2 /* C4QCatFactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4QCatFactsTableViewController.m; sourceTree = "<group>"; };
 		8D610E961C2477EB00AADDC2 /* C4QColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4QColorPickerViewController.h; sourceTree = "<group>"; };
@@ -49,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6928B5D31C260C7C00AAB8DA /* ImageIO.framework in Frameworks */,
 				DD8FD6DEC146B4B1C1F45D98 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +88,7 @@
 		4E15730958CE00A7A68699CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6928B5D21C260C7C00AAB8DA /* ImageIO.framework */,
 				A44461502C751D156694EAA4 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -96,12 +117,21 @@
 			children = (
 				8D8753061C24774700BBD328 /* AppDelegate.h */,
 				8D8753071C24774700BBD328 /* AppDelegate.m */,
+				6928B5CF1C2606CB00AAB8DA /* UIImage+animatedGIF.h */,
+				6928B5D01C2606CB00AAB8DA /* UIImage+animatedGIF.m */,
 				8D610E9C1C2477EB00AADDC2 /* C4QViewController.h */,
 				8D610E9D1C2477EB00AADDC2 /* C4QViewController.m */,
 				8D610E961C2477EB00AADDC2 /* C4QColorPickerViewController.h */,
 				8D610E971C2477EB00AADDC2 /* C4QColorPickerViewController.m */,
+				6928B5C11C25C26100AAB8DA /* C4QColorPickerViewControllerDelegate.h */,
 				8D610E941C2477EB00AADDC2 /* C4QCatFactsTableViewController.h */,
 				8D610E951C2477EB00AADDC2 /* C4QCatFactsTableViewController.m */,
+				6928B5C21C25D1F000AAB8DA /* C4QCatFactTableViewCell.h */,
+				6928B5C31C25D1F000AAB8DA /* C4QCatFactTableViewCell.m */,
+				6928B5C51C25E22400AAB8DA /* C4QCatFactTableViewCell.xib */,
+				6928B5CB1C25F70000AAB8DA /* C4QCatFactTableViewCellDelegate.h */,
+				6928B5CC1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.h */,
+				6928B5CD1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.m */,
 				8DA03F721C2499F400328B53 /* C4QCatFactsDetailViewController.h */,
 				8DA03F731C2499F400328B53 /* C4QCatFactsDetailViewController.m */,
 				8D87530C1C24774700BBD328 /* Main.storyboard */,
@@ -114,6 +144,8 @@
 		8D8753031C24774700BBD328 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6928B5C91C25F57000AAB8DA /* Checkmark-32.png */,
+				6928B5C71C25F1C900AAB8DA /* Checkmark-25.png */,
 				8D8753111C24774800BBD328 /* LaunchScreen.storyboard */,
 				8D8753141C24774800BBD328 /* Info.plist */,
 				8D610E981C2477EB00AADDC2 /* C4QRootViewController.h */,
@@ -134,7 +166,6 @@
 				8D8752FC1C24774700BBD328 /* Sources */,
 				8D8752FD1C24774700BBD328 /* Frameworks */,
 				8D8752FE1C24774700BBD328 /* Resources */,
-				3684AD5BAB77F4944D6E5799 /* Embed Pods Frameworks */,
 				91854005019C45D9F05BF3D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,9 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6928B5CA1C25F57000AAB8DA /* Checkmark-32.png in Resources */,
 				8D8753131C24774800BBD328 /* LaunchScreen.storyboard in Resources */,
+				6928B5C61C25E22400AAB8DA /* C4QCatFactTableViewCell.xib in Resources */,
 				8D8753101C24774800BBD328 /* Assets.xcassets in Resources */,
 				8D87530E1C24774700BBD328 /* Main.storyboard in Resources */,
+				6928B5C81C25F1C900AAB8DA /* Checkmark-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,21 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3684AD5BAB77F4944D6E5799 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91854005019C45D9F05BF3D4 /* Copy Pods Resources */ = {
@@ -245,10 +264,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8753081C24774700BBD328 /* AppDelegate.m in Sources */,
+				6928B5CE1C2601FC00AAB8DA /* C4QSavedCatFactsTableViewController.m in Sources */,
 				8D610EA01C2477EB00AADDC2 /* C4QCatFactsTableViewController.m in Sources */,
+				6928B5D11C2606CB00AAB8DA /* UIImage+animatedGIF.m in Sources */,
 				8D8753051C24774700BBD328 /* main.m in Sources */,
 				8DA03F741C2499F400328B53 /* C4QCatFactsDetailViewController.m in Sources */,
 				8D610EA41C2477EB00AADDC2 /* C4QViewController.m in Sources */,
+				6928B5C41C25D1F000AAB8DA /* C4QCatFactTableViewCell.m in Sources */,
 				8D610EA11C2477EB00AADDC2 /* C4QColorPickerViewController.m in Sources */,
 				8D610EA21C2477EB00AADDC2 /* C4QRootViewController.m in Sources */,
 			);
@@ -362,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "unit-3-final-app-assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikekavouras.unit-3-final-app-assessment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "unit-3-final-app-assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikekavouras.unit-3-final-app-assessment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
